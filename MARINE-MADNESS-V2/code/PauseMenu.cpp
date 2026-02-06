@@ -2,7 +2,7 @@
 using namespace sf;
 
 PauseMenu::PauseMenu(float width, float height)
-    : Menu(width, height, { "Resume", "Save", "Options", "Exit to Main Menu"})
+    : Menu(width, height, { "Resume", "Options", "Exit to Main Menu"})
 {
     dimBackground.setSize(Vector2f(width, height));
     dimBackground.setFillColor(Color(0, 0, 0, 150)); // Transparant

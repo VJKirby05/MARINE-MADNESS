@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{054620F4-459C-44FC-B0E4-9F921A2D0179}|MARINE-MADNESS-V2\\MARINE-MADNESS-V2.vcxproj|C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{054620F4-459C-44FC-B0E4-9F921A2D0179}|MARINE-MADNESS-V2\\MARINE-MADNESS-V2.vcxproj|solutionrelative:MARINE-MADNESS-V2\\code\\MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054620F4-459C-44FC-B0E4-9F921A2D0179}|MARINE-MADNESS-V2\\MARINE-MADNESS-V2.vcxproj|C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{054620F4-459C-44FC-B0E4-9F921A2D0179}|MARINE-MADNESS-V2\\MARINE-MADNESS-V2.vcxproj|solutionrelative:MARINE-MADNESS-V2\\code\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054620F4-459C-44FC-B0E4-9F921A2D0179}|MARINE-MADNESS-V2\\MARINE-MADNESS-V2.vcxproj|C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\PauseMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{054620F4-459C-44FC-B0E4-9F921A2D0179}|MARINE-MADNESS-V2\\MARINE-MADNESS-V2.vcxproj|solutionrelative:MARINE-MADNESS-V2\\code\\PauseMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{054620F4-459C-44FC-B0E4-9F921A2D0179}|MARINE-MADNESS-V2\\MARINE-MADNESS-V2.vcxproj|C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{054620F4-459C-44FC-B0E4-9F921A2D0179}|MARINE-MADNESS-V2\\MARINE-MADNESS-V2.vcxproj|solutionrelative:MARINE-MADNESS-V2\\code\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,15 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PauseMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\PauseMenu.cpp",
+              "RelativeDocumentMoniker": "MARINE-MADNESS-V2\\code\\PauseMenu.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\PauseMenu.cpp",
+              "RelativeToolTip": "MARINE-MADNESS-V2\\code\\PauseMenu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-06T16:35:43.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\Input.cpp",
+              "RelativeDocumentMoniker": "MARINE-MADNESS-V2\\code\\Input.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\Input.cpp",
+              "RelativeToolTip": "MARINE-MADNESS-V2\\code\\Input.cpp",
+              "ViewState": "AgIAACkBAAAAAAAAAAAAADcBAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-06T16:33:11.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\MainMenu.cpp",
+              "RelativeDocumentMoniker": "MARINE-MADNESS-V2\\code\\MainMenu.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\MainMenu.cpp",
+              "RelativeToolTip": "MARINE-MADNESS-V2\\code\\MainMenu.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-06T16:32:14.476Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\Main.cpp",
               "RelativeDocumentMoniker": "MARINE-MADNESS-V2\\code\\Main.cpp",

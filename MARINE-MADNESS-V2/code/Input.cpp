@@ -48,19 +48,16 @@ void MarineMachine::input()
 						fromMainMenu = true;
 						break;
 
-					case 1: // Load
-						break;
-
-					case 2: // Scoreboard
+					case 1: // Scoreboard
 						state = State::SCOREBOARD;
 						break;
 
-					case 3: // Options
+					case 2: // Options
 						m_StateBeforeOption = state;
 						state = State::OPTION;
 						break;
 
-					case 4: // Exit the game
+					case 3: // Exit the game
 						m_Window.close();
 						break;
 
@@ -311,15 +308,12 @@ void MarineMachine::input()
 						state = State::PLAYING;
 						break;
 
-					case 1: // Save
-						break;
-
-					case 2: // Options
+					case 1: // Options
 						m_StateBeforeOption = state;
 						state = State::OPTION;
 						break;
 
-					case 3: // Exit to Main Menu
+					case 2: // Exit to Main Menu
 						state = State::MAIN_MENU;
 						soundMan.stopTracks();
 						break;

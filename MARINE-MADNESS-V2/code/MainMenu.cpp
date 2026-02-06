@@ -2,7 +2,7 @@
 
 // Constructor
 MainMenu::MainMenu(float width, float height)
-    : Menu(width, height, { "Play", "Load", "Scoreboard", "Options", "Exit" })
+    : Menu(width, height, { "Play", "Scoreboard", "Options", "Exit" })
 {
     font.loadFromFile("fonts/ByteBounce.ttf");
 
@@ -12,7 +12,7 @@ MainMenu::MainMenu(float width, float height)
     {
         Vector2f position(rand() % (int)width, rand() % (int)height);
         Vector2f velocity((std::rand() % 2001) / 100.f - 10.f, (std::rand() % 2001) / 100.f - 10.f);
-        auto flyweight = ParticleFactory::getParticleFlyweight(2.f); // small white particles
+        auto flyweight = ParticleFactory::getParticleFlyweight(2.f); // Small white particles
         particles.emplace_back(flyweight, position, velocity);
     }
 }
