@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{054620F4-459C-44FC-B0E4-9F921A2D0179}|MARINE-MADNESS-V2\\MARINE-MADNESS-V2.vcxproj|C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{054620F4-459C-44FC-B0E4-9F921A2D0179}|MARINE-MADNESS-V2\\MARINE-MADNESS-V2.vcxproj|solutionrelative:MARINE-MADNESS-V2\\code\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\Main.cpp",
+              "RelativeDocumentMoniker": "MARINE-MADNESS-V2\\code\\Main.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\MARINE-MADNESS-GAMESFLEADH\\MARINE-MADNESS-V2\\code\\Main.cpp",
+              "RelativeToolTip": "MARINE-MADNESS-V2\\code\\Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-06T16:26:10.764Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

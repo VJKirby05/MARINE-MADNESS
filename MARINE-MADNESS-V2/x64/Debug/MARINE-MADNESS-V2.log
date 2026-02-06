@@ -1,0 +1,243 @@
+﻿  Android.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Android.cpp(115,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Bullet.cpp
+  Cowboy.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Cowboy.cpp(92,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Cowboy.cpp(170,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  DetectCollision.cpp
+  Dinosaur.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Dinosaur.cpp(99,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Draw.cpp
+  Enemy.cpp
+  HUD.cpp
+  Input.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Input.cpp(220,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  LevelManager.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(77,26): warning C4267: '=': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(77,26): warning C4267:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(77,26): warning C4267:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(77,26): warning C4267:             T=int
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(77,26): warning C4267:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(124,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(124,31): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(124,31): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(124,31): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(124,31): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(124,16): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(124,16): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(124,16): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(124,16): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(124,16): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(127,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(127,45): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(127,45): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(127,45): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(127,45): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(127,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(127,30): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(127,30): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(127,30): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(127,30): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(130,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(130,59): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(130,59): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(130,59): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(130,59): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(130,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(130,30): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(130,30): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(130,30): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(130,30): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(133,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(133,47): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(133,47): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(133,47): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(133,47): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(133,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(133,17): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(133,17): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(133,17): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(133,17): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(139,19): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(139,19): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(139,19): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(139,19): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(139,19): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(142,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(142,27): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(142,27): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(142,27): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(142,27): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(142,14): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(142,14): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(142,14): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(142,14): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(142,14): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(145,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(145,35): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(145,35): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(145,35): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(145,35): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(145,14): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(145,14): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(145,14): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(145,14): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(145,14): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(148,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(148,27): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(148,27): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(148,27): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(148,27): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(166,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(166,17): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(166,17): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(166,17): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(166,17): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(165,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(165,17): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(165,17): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(165,17): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(165,17): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(173,9): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(254,40): warning C4267: '=': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(254,40): warning C4267:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(254,40): warning C4267:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(254,40): warning C4267:             T=int
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LevelManager.cpp(254,40): warning C4267:         ]
+  LoadLevel.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LoadLevel.cpp(32,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(36,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+      C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(36,21):
+      the template instantiation context (the oldest one first) is
+          C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LoadLevel.cpp(19,3):
+          see reference to function template instantiation 'void EnemySpawner<Dinosaur>(std::vector<std::unique_ptr<Enemy,std::default_delete<Enemy>>,std::allocator<std::unique_ptr<Enemy,std::default_delete<Enemy>>>> &,int,sf::IntRect)' being compiled
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(36,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(37,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(37,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(38,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(38,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(39,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(39,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+  Main.cpp
+  MainMenu.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MainMenu.cpp(13,55): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MainMenu.cpp(13,55): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MainMenu.cpp(13,55): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MainMenu.cpp(13,55): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MainMenu.cpp(13,55): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MainMenu.cpp(13,34): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MainMenu.cpp(13,34): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MainMenu.cpp(13,34): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MainMenu.cpp(13,34): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MainMenu.cpp(13,34): warning C4244:         ]
+  MarineMachine.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(12,75): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(12,40): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(13,74): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(13,39): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(14,75): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(14,40): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(22,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(22,44): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(22,44): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(22,44): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(22,44): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(23,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(23,44): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(23,44): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(23,44): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(23,44): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(26,52): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(26,52): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(26,52): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(26,52): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(26,52): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(26,38): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(26,38): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(26,38): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(26,38): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(26,38): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\MarineMachine.cpp(50,18): warning C4305: 'argument': truncation from 'double' to 'float'
+  Menu.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Menu.cpp(19,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Menu.cpp(32,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  OptionMenu.cpp
+  Particle.cpp
+  ParticleFactory.cpp
+  ParticleFlyweight.cpp
+  Pathfinding.cpp
+  Generating Code...
+  Compiling...
+  PauseMenu.cpp
+  Player.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(8,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(9,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(28,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(35,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(36,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(214,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(214,27): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(214,27): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(214,27): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(214,27): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(216,35): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(216,35): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(216,35): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(216,35): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(216,35): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(220,26): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(220,26): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(220,26): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(220,26): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(220,26): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(222,34): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(222,34): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(222,34): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(222,34): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(222,34): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(282,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Player.cpp(309,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+  ScoreManager.cpp
+  SoundManager.cpp
+  TextureHolder.cpp
+  Update.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(52,17): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(52,17): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(52,17): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(52,17): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(52,17): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(53,18): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(53,18): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(53,18): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(53,18): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(53,18): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(75,20): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(75,20): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(75,20): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(75,20): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(75,20): warning C4244:         ]
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(76,19): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(76,19): warning C4244:         with
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(76,19): warning C4244:         [
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(76,19): warning C4244:             T=float
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Update.cpp(76,19): warning C4244:         ]
+  Warp.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Warp.cpp(27,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  MARINE-MADNESS-V2.vcxproj -> C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\x64\Debug\MARINE-MADNESS-V2.exe
