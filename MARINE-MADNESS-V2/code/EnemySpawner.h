@@ -8,7 +8,6 @@
 #include <SFML/Graphics.hpp>
 #include <cstdlib>
 #include <ctime>
-#include <SFML/Graphics.hpp>
 
 using namespace std;
 using namespace sf;

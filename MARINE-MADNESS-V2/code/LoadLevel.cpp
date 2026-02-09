@@ -1,6 +1,7 @@
 #include "MarineMachine.h"
 #include "EnemySpawner.h"
 #include "SoundManager.h"
+#include <ctime>
 
 void MarineMachine::loadLevel()
 {
@@ -10,7 +11,7 @@ void MarineMachine::loadLevel()
 
 	int level = lm.getCurrentLevel();
 	setTileSheets(level);
-	int count = 5; // Enemy count
+	int count = (rand() % 2) + 1; // Enemy count, 1 or 2
 
 	// Set specific enemies for each levels
 	switch (level)
@@ -19,10 +20,10 @@ void MarineMachine::loadLevel()
 		EnemySpawner<Dinosaur>(enemies, count, arena);
 		break;
 	case 2:
-		EnemySpawner<Cowboy>(enemies, count, arena);
+		EnemySpawner<Cowboy>(enemies, count * 2, arena);
 		break;
 	case 3:
-		EnemySpawner<Android>(enemies, count, arena);
+		EnemySpawner<Android>(enemies, count * 3, arena);
 		break;
 	default:
 		enemies.clear();

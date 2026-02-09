@@ -94,9 +94,6 @@ void Android::update(float elapsedTime, sf::Vector2f playerLocation) {
         m_Position.y = m_Position.y - m_Speed * elapsedTime;
     }
 
-
-
-
     // Move the sprite
     m_Sprite.setPosition(m_Position);
 

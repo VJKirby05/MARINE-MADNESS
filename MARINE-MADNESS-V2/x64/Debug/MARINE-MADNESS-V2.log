@@ -1,2 +1,36 @@
-﻿  PauseMenu.cpp
+﻿  Android.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Android.cpp(112,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Cowboy.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\Cowboy.cpp(110,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  LoadLevel.cpp
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LoadLevel.cpp(33,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(35,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+      C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(35,21):
+      the template instantiation context (the oldest one first) is
+          C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\LoadLevel.cpp(20,3):
+          see reference to function template instantiation 'void EnemySpawner<Dinosaur>(std::vector<std::unique_ptr<Enemy,std::default_delete<Enemy>>,std::allocator<std::unique_ptr<Enemy,std::default_delete<Enemy>>>> &,int,sf::IntRect)' being compiled
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(35,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(36,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(36,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(37,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(37,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(38,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\MARINE-MADNESS-V2\code\EnemySpawner.h(38,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'code/LoadLevel.cpp')
+  
+  Generating Code...
   MARINE-MADNESS-V2.vcxproj -> C:\Users\james\source\MARINE-MADNESS-GAMESFLEADH\x64\Debug\MARINE-MADNESS-V2.exe
