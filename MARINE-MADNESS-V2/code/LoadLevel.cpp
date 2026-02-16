@@ -57,6 +57,9 @@ void MarineMachine::loadLevel()
 	// Pass the arena data to player
 	marine.setArena(arenaBounds, tileSize);
 
+	// Pass the arena data to time shifter
+	shifter.setArena(arenaBounds, tileSize);
+
 	// Pass arena date to warp
 	wp.setArena(arenaBounds, tileSize);
 

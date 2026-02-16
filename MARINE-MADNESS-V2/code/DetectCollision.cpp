@@ -26,7 +26,6 @@ void MarineMachine::detectCollision()
 				if (enemy->hit())
 				{
 					m_ScoreSystem.addPoints(10);
-					cout << "Enemy killed!" << endl;
 				}
 
 				// Play appropriate sound
@@ -128,7 +127,6 @@ void MarineMachine::detectCollision()
 
 		// Load the subsequent level
 		lm.setCurrentLevel(lm.getCurrentLevel());
-		cout << "CURRENT LEVEL: " << lm.getCurrentLevel();
 
 		if (lm.getCurrentLevel() > 3)
 		{

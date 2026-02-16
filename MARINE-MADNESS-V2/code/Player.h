@@ -98,6 +98,9 @@ public:
 	// How much health has the player currently got?
 	int getHealth();
 
+	// Get player speed
+	float getSpeed();
+
 	// The next four functions move the player
 	void moveLeft();
 
@@ -131,11 +134,11 @@ public:
 	// We will call this function once every frame
 	void update(float elapsedTime, Vector2f mousePosition);
 
-	// Get player speed
-	float getSpeed();
-
 	// Set player speed
 	void setSpeed(float speedIn);
+
+	// Set player health
+	void setHealth(int hpMod);
 
 	// Reset player health
 	void resetHealth();

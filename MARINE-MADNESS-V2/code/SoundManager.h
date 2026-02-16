@@ -6,13 +6,13 @@ using namespace sf;
 class SoundManager
 {
 private:
-	// The buffers
+	// The Buffers
     SoundBuffer hitBuffer;
     SoundBuffer splatBuffer;
     SoundBuffer shootBuffer;
     SoundBuffer reloadBuffer;
     SoundBuffer reloadFailedBuffer;
-    SoundBuffer dodgeBuffer;
+    SoundBuffer shiftBuffer;
     SoundBuffer meleeBuffer;
     SoundBuffer walkBuffer;
     SoundBuffer lazerBuffer;
@@ -26,7 +26,7 @@ private:
     Sound shootSound;
     Sound reloadSound;
     Sound reloadFailedSound;
-    Sound dodgeSound;
+    Sound shiftSound;
     Sound meleeSound;
     Sound walkSound;
     Sound lazerSound;
@@ -51,7 +51,7 @@ public:
     void playShoot();
     void playReload();
     void playReloadFailed();
-    void playDodge();
+    void playShift();
     void playMelee();
     void playWalk();
     void playLazer();

@@ -92,6 +92,12 @@ void MarineMachine::draw()
 			m_Window.draw(meleeAttackRect);
 		}
 
+		// Draw the shifter
+		if (hasTimeShifted)
+		{
+			m_Window.draw(shifter.getSprite());
+		}
+
 		// Draw the warp
 		m_Window.draw(wp.getSprite());
 

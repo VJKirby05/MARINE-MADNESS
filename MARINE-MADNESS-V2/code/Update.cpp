@@ -164,8 +164,8 @@ void MarineMachine::update(float dtAsSeconds)
 		}
 
 		// Update the dodge variables and reset the player
-		if (isDodging && (gameTimeTotal - lastDodgeTime >= dodgeDuration)) {
-			isDodging = false;
+		if (isShifting && (gameTimeTotal - lastShiftTime >= shiftDuration)) {
+			isShifting = false;
 			marine.setSpeed(originalSpeed);
 		}
 

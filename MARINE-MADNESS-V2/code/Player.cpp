@@ -120,6 +120,12 @@ int Player::getHealth()
 	return m_Health;
 }
 
+// Get speed
+float Player::getSpeed() {
+
+	return m_Speed;
+}
+
 // Movement
 void Player::moveLeft()
 {
@@ -292,15 +298,16 @@ void Player::update(float elapsedTime, Vector2f mousePosition)
 	updateLeftRightTopBottom();
 }
 
-// Get and set methods for dodge
-float Player::getSpeed() {
-
-	return m_Speed;
-}
+// Set methods for time shifting mechanic
 
 void Player::setSpeed(float speedIn) {
 
 	m_Speed = speedIn;
+}
+
+void Player::setHealth(int hpMod) {
+
+	m_Health = hpMod;
 }
 
 // Reset player health

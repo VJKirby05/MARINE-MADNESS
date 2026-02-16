@@ -6,6 +6,7 @@
 #include <fstream>
 #include <sstream>
 #include "Player.h"
+#include "PlayerShifter.h"
 #include "Bullet.h"
 #include "Warp.h"
 #include "Enemy.h"
@@ -45,11 +46,11 @@ private:
 	int bulletsInClip = 6;
 	int clipSize = 6;
 
-	// Dodge variables
-	bool isDodging = false;
-	Time dodgeDuration = milliseconds(300);
-	Time dodgeCooldown = seconds(2);
-	Time lastDodgeTime;
+	// Time shift variables
+	bool isShifting = false;
+	Time shiftDuration = milliseconds(300);
+	Time shiftCooldown = seconds(10);
+	Time lastShiftTime;
 	float originalSpeed;
 
 	// Melee variables
@@ -74,11 +75,6 @@ private:
 	Sprite spriteCrosshair;
 	Texture textureCrosshair;
 
-	// Weapon tracking
-	bool holdingPistol = true;
-	bool holdingShot = false;
-	bool holdingSmg = false;
-
 	// Fire rates
 	Time pistolFireRate = milliseconds(500);
 	Time lastPistolShot;
@@ -88,6 +84,9 @@ private:
 
 	// The Marine
 	Player marine;
+
+	// The Time Shifter
+	PlayerShifter shifter;
 
 	// Time warp
 	Warp wp;
@@ -201,6 +200,9 @@ public:
 
 	// A boolean
 	bool testBool;
+
+	// Checks if player has time shifted
+	bool hasTimeShifted = false;
 
 	// Game states
 	enum class State { MAIN_MENU, PAUSED, STORY_MENU, PLAYING, SCOREBOARD, OPTION};

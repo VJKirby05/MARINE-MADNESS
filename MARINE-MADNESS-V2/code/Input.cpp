@@ -266,24 +266,28 @@ void MarineMachine::input()
 			}
 
 
-			// Handle dodge input (Left Shift)
+			// Handle time shiftng input (Left Shift)
 			if (Keyboard::isKeyPressed(Keyboard::LShift) &&
-				!isDodging &&
-				(gameTimeTotal - lastDodgeTime >= dodgeCooldown))
+				!isShifting &&
+				(gameTimeTotal - lastShiftTime >= shiftCooldown))
 			{
-				isDodging = true;
-				lastDodgeTime = gameTimeTotal;
+				isShifting = true;
+				hasTimeShifted = true;
+
+				// Spawn Shifter
+				shifter.spawn(marine.getCenter(), marine.getRotation(), marine.getHealth() / 4, marine.getSpeed());
+				
+				lastShiftTime = gameTimeTotal;
+
 				originalSpeed = marine.getSpeed(); // Store current speed
-				marine.setSpeed(originalSpeed * 2); // Double speed
-				soundMan.playDodge(); // Play dodge sound
-			}
+				int speedModifier = (rand() % 6) + 2; // Generate random modifier, between 2 and 6
+				marine.setSpeed(originalSpeed * speedModifier); // Temporarily increase speed
 
-			// Handle the player quitting
-			if (event.key.code == (Keyboard::Escape))
-			{
-				m_Window.close();
-			}
+				int hpModifier = marine.getHealth() - (marine.getHealth() / 4); // Subtract from health
+				marine.setHealth(hpModifier); // Change health after shifter is created
 
+				soundMan.playShift(); // Play time shift sound
+			}
 		}
 
 		// Pause input

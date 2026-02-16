@@ -37,6 +37,7 @@
     <ClInclude Include="code\Pathfinding.h" />
     <ClInclude Include="code\PauseMenu.h" />
     <ClInclude Include="code\Player.h" />
+    <ClInclude Include="code\PlayerShifter.h" />
     <ClInclude Include="code\ScoreManager.h" />
     <ClInclude Include="code\ScoreObserver.h" />
     <ClInclude Include="code\ScoreSubject.h" />
@@ -68,6 +69,7 @@
     <ClCompile Include="code\Pathfinding.cpp" />
     <ClCompile Include="code\PauseMenu.cpp" />
     <ClCompile Include="code\Player.cpp" />
+    <ClCompile Include="code\PlayerShifter.cpp" />
     <ClCompile Include="code\ScoreManager.cpp" />
     <ClCompile Include="code\SoundManager.cpp" />
     <ClCompile Include="code\TextureHolder.cpp" />

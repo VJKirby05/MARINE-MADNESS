@@ -11,7 +11,7 @@ SoundManager::SoundManager()
     shootBuffer.loadFromFile("sound/shoot.wav");
     reloadBuffer.loadFromFile("sound/reload.wav");
     reloadFailedBuffer.loadFromFile("sound/reload_failed.wav");
-    dodgeBuffer.loadFromFile("sound/dodge.wav");
+    shiftBuffer.loadFromFile("sound/time_shift.wav");
     meleeBuffer.loadFromFile("sound/melee.wav");
     walkBuffer.loadFromFile("sound/walk.wav");
     lazerBuffer.loadFromFile("sound/laser_shoot.wav");
@@ -25,7 +25,7 @@ SoundManager::SoundManager()
     shootSound.setBuffer(shootBuffer);
     reloadSound.setBuffer(reloadBuffer);
     reloadFailedSound.setBuffer(reloadFailedBuffer);
-    dodgeSound.setBuffer(dodgeBuffer);
+    shiftSound.setBuffer(shiftBuffer);
     meleeSound.setBuffer(meleeBuffer);
     walkSound.setBuffer(walkBuffer);
     lazerSound.setBuffer(lazerBuffer);
@@ -46,7 +46,7 @@ void SoundManager::playSplat() { splatSound.play(); }
 void SoundManager::playShoot() { shootSound.play(); }
 void SoundManager::playReload() { reloadSound.play(); }
 void SoundManager::playReloadFailed() { reloadFailedSound.play(); }
-void SoundManager::playDodge() { dodgeSound.play(); }
+void SoundManager::playShift() { shiftSound.play(); }
 void SoundManager::playMelee() { meleeSound.play(); }
 void SoundManager::playWalk() { walkSound.play(); }
 void SoundManager::playLazer() { lazerSound.play(); }
@@ -96,7 +96,7 @@ void SoundManager::setGlobalVolume(float volume)
     shootSound.setVolume(volume);
     reloadSound.setVolume(volume);
     reloadFailedSound.setVolume(volume);
-    dodgeSound.setVolume(volume);
+    shiftSound.setVolume(volume);
     meleeSound.setVolume(volume);
     walkSound.setVolume(volume);
     lazerSound.setVolume(volume);

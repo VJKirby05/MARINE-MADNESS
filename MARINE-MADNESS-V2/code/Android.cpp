@@ -54,7 +54,6 @@ bool Android::hit()
     {
         // dead
         m_Alive = false;
-        m_Sprite.setTexture(TextureHolder::GetTexture("graphics/blood.png"));
         return true;
     }
 
