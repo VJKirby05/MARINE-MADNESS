@@ -58,8 +58,8 @@ int** LevelManager::nextLevel(VertexArray& rVaLevel)
 		levelToLoad = "levels/level3-fracture-future.txt";
 		m_PlayerStartPosition.x = 250;
 		m_PlayerStartPosition.y = 650;
-		m_WarpStartPosition.x = 910;
-		m_WarpStartPosition.y = 110;
+		m_WarpStartPosition.x = 1310;
+		m_WarpStartPosition.y = 860;
 		break;
 	}
 

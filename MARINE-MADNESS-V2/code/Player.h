@@ -134,6 +134,8 @@ public:
 	// We will call this function once every frame
 	void update(float elapsedTime, Vector2f mousePosition);
 
+	void applyRecoil(Vector2f dir, float str);
+
 	// Set player speed
 	void setSpeed(float speedIn);
 

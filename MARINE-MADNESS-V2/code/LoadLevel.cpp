@@ -11,6 +11,7 @@ void MarineMachine::loadLevel()
 
 	int level = lm.getCurrentLevel();
 	setTileSheets(level);
+	srand(time(0));
 	int count = (rand() % 2) + 1; // Enemy count, 1 or 2
 
 	// Set specific enemies for each levels

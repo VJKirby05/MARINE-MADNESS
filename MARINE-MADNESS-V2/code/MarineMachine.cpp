@@ -92,9 +92,9 @@ MarineMachine::MarineMachine()
 	stringstream controlsStreamB;
 	controlsStreamB <<
 		"<--COMBAT CONTROLS-->" <<
-		"\nLMB - Shoot" <<
+		"\nLMB - Shoot (25% knockback chance)" <<
 		"\nRMB - Melee Attack" <<
-		"\nL-Shift + [W/A/S/D] - Dodge";
+		"\nL-Shift + [W/A/S/D] - Time Shift";
 	m_ControlsTextB.setString(controlsStreamB.str());
 
 	// Game title text
@@ -172,6 +172,7 @@ void MarineMachine::setLevelText(int level)
 		// Archaic Anarchy text
 		storyStream <<
 			"Era 1 -> Arhchaic Anarchy -> 32XX BC" <<
+			"\nWEAPON OF USE: Melee (RMB only)" <<
 			"\n" <<
 			"\nWATCH OUT! There are prehistoric reptiles that roam these lands." <<
 			"\n" <<
@@ -185,6 +186,7 @@ void MarineMachine::setLevelText(int level)
 		// Wild West text
 		storyStream <<
 			"Era 2 -> Wild West -> 18XX" <<
+			"\nWEAPON OF USE: Pistol (LMB only)" <<
 			"\n" <<
 			"\nYEEEHAWWW! There's some dastardly bandits hanging around." <<
 			"\nBe cautious for each of these foes have guns." <<
@@ -198,6 +200,7 @@ void MarineMachine::setLevelText(int level)
 		// Fracture Future text
 		storyStream <<
 			"Era 3 -> Fracture Future -> 30XX" <<
+			"\nWEAPON OF USE: Both" <<
 			"\n" <<
 			"\nCongratulations! You have made it to the final level." <<
 			"\n" <<
@@ -216,7 +219,7 @@ void MarineMachine::setLevelText(int level)
 		storyStream <<
 			"Era 4 -> The Warehouse -> 20XX" <<
 			"\n" <<
-			"After returning to the warehouse, you pick up the device." <<
+			"\nAfter returning to the warehouse, you pick up the device." <<
 			"\nKnowing its potential, you carefully locked the device away." <<
 			"\nSo that it could never send another victim in a time loop." <<
 			"\n" <<

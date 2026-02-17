@@ -298,6 +298,12 @@ void Player::update(float elapsedTime, Vector2f mousePosition)
 	updateLeftRightTopBottom();
 }
 
+void Player::applyRecoil(Vector2f dir, float str)
+{
+	// Subtract the direction from current position i.e. launch player back from the recoil
+	m_Position -= dir * str;
+}
+
 // Set methods for time shifting mechanic
 
 void Player::setSpeed(float speedIn) {

@@ -196,9 +196,33 @@ void MarineMachine::input()
 				marine.stopRightMovement();
 			}
 
+			// Allow certain controls based on current level
+			switch (lm.getCurrentLevel())
+			{
+				case 1:	// Tutorial
+					allowShooting = true;
+					allowMelee = true;
+				break;
+
+				case 2:	// Archaic Anarchy
+					allowShooting = false;
+					allowMelee = true;
+				break;
+
+				case 3:	// Wild West
+					allowShooting = true;
+					allowMelee = false;
+				break;
+
+				case 4:	// Fracture Future
+					allowShooting = true;
+					allowMelee = true;
+				break;
+			}
+
 			// MELEE INPUT
 			if (Mouse::isButtonPressed(Mouse::Right) &&
-				gameTimeTotal - lastMeleeAttack >= meleeCooldown)
+				gameTimeTotal - lastMeleeAttack >= meleeCooldown && allowMelee)
 			{
 				isMeleeAttacking = true;
 				lastMeleeAttack = gameTimeTotal;
@@ -218,9 +242,8 @@ void MarineMachine::input()
 				meleeAttackRect.setFillColor(Color(255, 255, 255, 100));
 			}
 
-
 			// SHOOTING INPUT
-			if (Mouse::isButtonPressed(Mouse::Left))
+			if (Mouse::isButtonPressed(Mouse::Left) && allowShooting)
 			{
 				if (gameTimeTotal.asMilliseconds() - lastPistolShot.asMilliseconds() >= pistolFireRate.asMilliseconds())
 				{
@@ -238,6 +261,29 @@ void MarineMachine::input()
 						lastPistolShot = gameTimeTotal;
 
 						soundMan.playShoot();
+
+						// Generate a number for chance at recoil from shooting
+						srand(time(0));
+						int recoilNum = (rand() % 4) + 1; // Between 1 and 4
+
+						cout << "NUMBER RECOILLL: " << recoilNum << endl;
+
+						if (recoilNum == 4)
+						{
+							Vector2f pPos = marine.getCenter();
+							Vector2f recDir = mouseWorldPosition - pPos;
+
+							// Calculate length to normalize
+							float length = sqrt(recDir.x * recDir.x + recDir.y * recDir.y);
+
+							if (length != 0) // Prevent division by zero
+							{
+								Vector2f unitDir = recDir / length;
+
+								// Adjust 20.0f to change how far the player "kicks" back
+								marine.applyRecoil(unitDir, 120.0f);
+							}
+						}
 					}
 				}
 			}

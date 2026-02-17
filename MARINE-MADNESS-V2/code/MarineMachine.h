@@ -201,6 +201,12 @@ public:
 	// A boolean
 	bool testBool;
 
+	// Another boolean
+	bool allowShooting;
+
+	// Yet another boolean
+	bool allowMelee;
+
 	// Checks if player has time shifted
 	bool hasTimeShifted = false;
 
